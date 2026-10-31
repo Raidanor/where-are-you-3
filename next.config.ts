@@ -1,6 +1,7 @@
 import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
+    reactStrictMode: false,
   // Next.js configuration
   // Note: Use port 3001 (via npm scripts) to avoid conflict with SpacetimeDB on port 3000
 };

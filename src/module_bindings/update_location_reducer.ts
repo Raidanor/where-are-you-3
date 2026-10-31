@@ -8,6 +8,9 @@ import {
   t as __t,
   type AlgebraicTypeType as __AlgebraicTypeType,
   type Infer as __Infer,
-} from 'spacetimedb';
+} from "spacetimedb";
 
-export default {};
+export default {
+  lat: __t.f64(),
+  lng: __t.f64(),
+};
